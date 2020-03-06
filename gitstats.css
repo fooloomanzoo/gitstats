@@ -3,7 +3,9 @@
  */
 body {
 	color: black;
-	background-color: #dfd;
+	background-color: #f7f7f7;
+	font-family: Fira Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+	font-size: 0.85em;
 }
 
 dt {
@@ -22,9 +24,9 @@ dd {
 }
 
 table {
-	border: 1px solid black;
+	border: 1px solid #d8d8d8;
 	border-collapse: collapse;
-	font-size: 80%;
+	font-size: 0.75rem;
 	margin-bottom: 1em;
 }
 
@@ -50,28 +52,28 @@ td {
 }
 
 th {
-	background-color: #ddf;
+	color: rgba(0, 0, 0, 0.8);
+	background-color: #d8d8d8;
+	padding: 0.4em;
 }
 
 th a {
+	color: rgba(0, 0, 0, 0.8);
 	text-decoration: none;
 }
 
 tr:hover {
-	background-color: #ddf;
+	background-color: #D1DEE7;
 }
 
 td {
-	border: 1px solid black;
-	padding: 0.2em;
-	padding-left: 0.3em;
-	padding-right: 0.2em;
+	border: 1px solid #d8d8d8;
+	padding: 0.4em;
 }
 
 /* Navigation bar; tabbed style */
 .nav {
-	border-bottom: 1px solid black;
-	padding: 0.3em;
+	padding: 0.6em;
 }
 
 .nav ul {
@@ -86,17 +88,17 @@ td {
 }
 
 .nav li a {
-	padding: 0.3em;
+	padding: 0.4em;
 	text-decoration: none;
-	color: black;
-	border: 1px solid black;
+	color: #1c313e;
+	border: 1px solid #d8d8d8;
 	margin: 0.5em;
 	background-color: #ddf;
 }
 
 .nav li a:hover {
-	background-color: #ddd;
-	border-bottom: 1px solid #ddf;
+	background-color: #d8d8d8;
+	border-bottom: 1px solid #a7b5bf;
 }
 
 img {
@@ -108,31 +110,25 @@ img {
 th img {
 	border: 0px;
 	padding: 0px;
-	background-color: #ddf;
+	background-color: #d8d8d8;
 }
 
 h1 a, h2 a {
-	color: black;
+	color: #1c313e;
 	text-decoration: none;
 }
 
-h1:hover a:after,
-h2:hover a:after {
-	content: '¶';
-	color: #555;
-}
-
 h1 {
-	font-size: x-large;
+	font-size: 1.6rem;
+	padding: 0.2em 0.5em;
 }
 
 h2 {
-	background-color: #564;
-	border: 1px solid black;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	background-color: #324956;
+	border: 1px solid #a7b5bf;
+	padding: 0.4em 0.8em;
 	color: white;
-	font-size: large;
+	font-size: 1.1rem;
 	clear: both;
 }
 
@@ -141,5 +137,5 @@ h2 a {
 }
 
 .moreauthors {
-	font-size: 80%;
+	font-size: 0.75rem;
 }
